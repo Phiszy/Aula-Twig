@@ -1,7 +1,8 @@
-{% if aconteceu_erro %}
-    Aconteceu um erro!
+{% if erro == 1 %}
+    Usuário ou senha inválidos!😒
+{% elseif erro == 2 %}
+    Você está tentando acessar uma página restrita. A polícia já foi acionada. Não adianta se esconder, em algumas horas eles estaram ai.😘
 {% endif %}
-
 <form action="login_verifica.php" method="POST">
     <div>
         <input type="text" name="user" placeholder="Usuário">
