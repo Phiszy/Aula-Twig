@@ -1,17 +1,17 @@
 {% if erro == 1 %}
-    Usuário ou senha inválidos!😒
+	Usuário ou senha inválidos!😒
 {% elseif erro == 2 %}
-    Você está tentando acessar uma página restrita. A polícia já foi acionada. Não adianta se esconder, em algumas horas eles estaram ai.😘
+	Você está tentando acessar uma página restrita. A polícia já foi acionada. Não adianta se esconder, em algumas horas eles estaram ai.😘
 {% endif %}
 <form action="login_verifica.php" method="POST">
-    <div>
-        <input type="text" name="user" placeholder="Usuário">
-    </div>
-    <div>
-        <input type="password" name="password" placeholder="Senha">
-    </div>
-    <div>
-        <input type="submit" value="Acessar">
-    </div>
+	<div>
+		<input type="text" name="user" placeholder="Usuário">
+	</div>
+	<div>
+		<input type="password" name="password" placeholder="Senha">
+	</div>
+	<div>
+		<input type="submit" value="Acessar">
+	</div>
 
 </form>
