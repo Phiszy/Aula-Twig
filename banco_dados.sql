@@ -42,7 +42,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `username`, `senha`, `admin`, `ativo`) VALUES
-(1, 'Pedro', 'pedro@gmail.com', 'Pedrin', '$2y$12$rLmIAOL9vSpVVuD3NZPm2u.XMdzJfosyi417XJEsPBjGEWjUlmDNu', 1, 1),
+(1, 'Pedro', 'pedro@gmail.com', 'Pedrin', '$2y$12$nFm6lbEMewFTJM0O3NifH.IyTXP3zcpyVIK4gojW/UVB/UhqGGMMS', 1, 1),
 (2, 'Fulano', 'fulano@gmail.com', 'Fulanin', 'fulano123', 0, 1);
 
 --
